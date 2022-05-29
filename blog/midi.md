@@ -64,12 +64,12 @@ I expect a mess. Also I might alter some definitions made by myself in the proce
 
 ## The Results
 
-### 1st iteration
-
 I actually don't want to talk too much about the code itself and I tried to make the tool as transparent as possible. You can use this by yourself with `./image-to-midi.py -i input.jpg -o output.mid`.
 
-I used the defined properties from above and I get a non-edited midi file which sounds like this.
+I used the defined properties from above and I get a non-edited midi file which sounds like this (link to YouTube).
 
-[![Image of the video preview](assets/image-to-midi-sample-sgta-youtube.png)](https://youtu.be/N4S83Uz5gXs)
+[![Image of the video preview](assets/image-to-midi-sample-sgta-youtube.png "Image of the video preview")](https://youtu.be/N4S83Uz5gXs)
 
-Kinda weird, creepy. But it has rythm.
+Kinda weird, creepy. But it has rythm. And I like that already. This midi file is generated with a speed of 480 beats per minute whereas one pixel is one beat. If you want to you can play with the tempoby yourself chaning the value on line 150 (`mf.addTempo(i, 0, 480)`) of the script.
+
+I also want to provide the generated midi file. You can find it [here](../tools/recources/image-to-midi/image-to-midi-sample-sgta.mid) (even though not many people will read this but I so wonder how it sounds edited in a good DAW with actual synthies and thoughtful editing).
