@@ -72,4 +72,4 @@ I used the defined properties from above and I get a non-edited midi file which 
 
 Kinda weird, creepy. But it has rythm. And I like that already. This midi file is generated with a speed of 480 beats per minute whereas one pixel is one beat. If you want to you can play with the tempoby yourself chaning the value on line 150 (`mf.addTempo(i, 0, 480)`) of the script.
 
-I also want to provide the generated midi file. You can find it [here](../tools/recources/image-to-midi/image-to-midi-sample-sgta.mid) (even though not many people will read this but I so wonder how it sounds edited in a good DAW with actual synthies and thoughtful editing).
+I also want to provide the generated midi file. You can find it [here](https://github.com/lauraherzog/universum-tonal/blob/main/tools/resources/image-to-midi/image-to-midi-sample-sgta.mid) (even though not many people will read this but I so wonder how it sounds edited in a good DAW with actual synthies and thoughtful editing).
