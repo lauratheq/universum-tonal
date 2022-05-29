@@ -18,7 +18,6 @@
 #   -i|--input-file        path to the input file
 #   -o|--output-file       path to the output file
 #   -b|--ignore-background dark pixel will be ignored
-#   -d|--dynamic-range     enables the dynamic color range instead of fixed definition
 #
 # LEGAL NOTE
 #   Written and maintained by Laura Herzog (laura-herzog@outlook.com)
@@ -42,7 +41,6 @@ def main():
   inputFile = None
   outputFile = None
   ignoreBackground = False
-  dynamicRange = False
 
   for operator, argument in opts:
     if operator in ("-h", "--help"):
