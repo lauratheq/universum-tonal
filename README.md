@@ -4,7 +4,7 @@ Universum Tonal is an art project by [Laura Herzog](https://github.com/lauraherz
 
 ## Links
 
-* [Blog](blog) - Last Update: 2022-05-29
+* [Blog](blog) - Last Update: 2022-06-03
 * [Contact](mailto:laura-herzog@outlook.com) - Please use "Universum Tonal" as subject
 
 ## License
